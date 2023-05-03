@@ -8,7 +8,7 @@ A mini project aimed at identifying phishing URLs using the checkphish API endpo
 #### Initiate url scan
 
 ```http
-  GET api/neo/scan
+  POST api/neo/scan
 ```
 
 | Parameter | Type     | Description                |
@@ -19,7 +19,7 @@ A mini project aimed at identifying phishing URLs using the checkphish API endpo
 #### Get url scan status
 
 ```http
-  GET api/neo/scan/status
+  POST api/neo/scan/status
 ```
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
